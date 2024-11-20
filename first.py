@@ -8,8 +8,8 @@ class Bill_App:
         self.root=root
         self.root.geometry("1350x700+0+0")
         self.root.configure(bg="#0A7CFF")
-        self.root.title("Resturent Billing System - CodeWithCurious.com")
-        title=Label(self.root,text="Resturent Billing System",bd=12,relief=RIDGE,font=("Arial Black",20),bg="#A569BD",fg="white").pack(fill=X)
+        self.root.title("Restaurant Billing System - CodeWithCurious.com")
+        title=Label(self.root,text="Restaurant Billing System",bd=12,relief=RIDGE,font=("Arial Black",20),bg="#A569BD",fg="white").pack(fill=X)
         #===================================variables=======================================================================================
         self.nutella=IntVar()
         self.noodles=IntVar()
